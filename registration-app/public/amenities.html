@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="navup">
+        <p>
+            <i class="fas fa-phone"></i> For Inquiry: +91 8121880099 | +91 8466011999
+        </p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">
+                <img src="PG_Logo.jpg" id="pg-logo" alt="PG Logo" style="height: 90px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right: 360px;">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" style="cursor: pointer;" href="home.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('about-us-section')">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('pricing-section')">Pricing</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="cursor: pointer;" onclick="scrollToSection('amenities-section')">Amenities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="cursor: pointer;" href="food.html">Food Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="cursor: pointer;" href="registration.html">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Amenities Section -->
+    <div class="container mt-5" id="amenities-section">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li><i class="fas fa-door-closed"></i> Washing Machine</li>
+                        <li><i class="fas fa-tv"></i> TV in Each Room</li>
+                        <li><i class="fas fa-clock"></i> 24-hour Hot Water</li>
+                        <li><i class="fas fa-utensils"></i> Self-Cooking Facility</li>
+                        <li><i class="fas fa-elevator"></i> Lift Available</li>
+                        <li><i class="fas fa-wifi"></i> 24-hour Wi-Fi</li>
+                        <li><i class="fas fa-bolt"></i> Power backup</li>
+                        <li><i class="fas fa-door-closed"></i> Fridge</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
